@@ -16,7 +16,7 @@ GRANT UPDATE, INSERT ON teste_permissoes.* TO 'aluno'@'localhost' IDENTIFIED BY 
 FLUSH PRIVILEGES;
 
 -> Mostrar privilégios:
-SHOW GRANTS FOR teste@localhost;
+SHOW GRANTS FOR aluno@localhost;
 
 
 ALL PRIVILEGES	dá a um usuário do MySQL todo o acesso a uma determinada base de dados (ou se nenhuma base de dados for selecionada, todo o sistema)
